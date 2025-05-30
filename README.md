@@ -64,7 +64,7 @@ Make sure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/NodeTalk-Backend.git
+git clone https://github.com/chanjali11/NodeTalk-Backened.git
 cd NodeTalk-Backend
 npm install
 
@@ -74,13 +74,15 @@ npm install
 
 Create a `.env` file in the root directory with the following content:
 
-````env
+```env
 PORT=3000
 DB_HOST=your_db_host
 DB_USER=your_db_user
 DB_PASS=your_db_password
 DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
+
+```
 
 ### ▶️ Run the Server
 
@@ -92,9 +94,12 @@ npm run dev  # Development mode with nodemon
 
 npm start # Production mode
 
-
+```
 
 ###🙌 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
-````
+
+```
+
+```
