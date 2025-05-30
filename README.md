@@ -63,16 +63,18 @@ Make sure you have the following installed:
 
 Clone the repository and install dependencies:
 
-````bash
+```bash
 git clone https://github.com/yourusername/NodeTalk-Backend.git
 cd NodeTalk-Backend
 npm install
+
+```
 
 ### ⚙️ Environment Variables
 
 Create a `.env` file in the root directory with the following content:
 
-```env
+````env
 PORT=3000
 DB_HOST=your_db_host
 DB_USER=your_db_user
